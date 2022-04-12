@@ -1,37 +1,15 @@
-<body>
-</div>
-    <head>
-        <style>
-            table{
-                border-collapse: collapse;
-                border: 1px solid #000;
-            }
-            td{
-                width: 50px;
-                height: 50px;
-                border: 1px solid #000;
-                text-align: center;
-                vertical-align: center;
-                font-family: monospace;
-                font-size: 18px;
-                position: relative;
-            }
-            td.pixel{
-                width: 6px;
-                height: 6px;
-                border: 0;
-            }
-            .pixel-index{
-                font-size: 10px;
-                display: inline-block;
-                position: absolute;
-                top: 2px;
-                right: 2px;
-                color: #999;
-            }
-        </style>
-    </head>
-    <div id="fireCanvas"></div>
-    <div>
-    <script src="script.js"></script>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+    <center>
+    <h1>Doom Fire Effect</h1>
+    <a href="https://github.com/brunogonca/DoomFire">https://github.com/brunogonca/DoomFire</a>
+    <body class="fundo">
+        <div id="fireCanvas"></div>
+        <div class="margin">
+        <button onclick="createFireSource()">Fire On</button>
+        <button onclick="destroyFireSource()">Fire Off</button>
+    </div>
+    </center>
+<script src="script.js"></script>
 </body>
